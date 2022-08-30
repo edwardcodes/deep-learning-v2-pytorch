@@ -70,7 +70,7 @@ class NeuralNetwork(object):
         # TODO: Output layer - Replace these values with your calculations.
         final_inputs = None # signals into final output layer
         final_outputs = None # signals from final output layer
-        
+
         return final_outputs, hidden_outputs
 
     def backpropagation(self, final_outputs, hidden_outputs, X, y, delta_weights_i_h, delta_weights_h_o):
@@ -127,17 +127,15 @@ class NeuralNetwork(object):
             ---------
             features: 1D array of feature values
         '''
-        
+
         #### Implement the forward pass here ####
         # TODO: Hidden layer - replace these values with the appropriate calculations.
         hidden_inputs = None # signals into hidden layer
         hidden_outputs = None # signals from hidden layer
-        
+
         # TODO: Output layer - Replace these values with the appropriate calculations.
         final_inputs = None # signals into final output layer
-        final_outputs = None # signals from final output layer 
-        
-        return final_outputs
+        return None
 
 
 #########################################################
